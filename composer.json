@@ -1,0 +1,18 @@
+{
+    "name": "programmerzamannow/php-composer-make-library",
+    "description": "Coba membuat Library di Composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "fanslab"
+        }
+    ],
+    "require": {
+        "php": ">=8.0" 
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\Belajar\\": "src/"
+        }
+    }
+}
